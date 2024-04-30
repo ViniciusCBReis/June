@@ -37,7 +37,8 @@ model = tf.keras.Sequential([
 
 # Passo 6: Compilar e Treinar o Modelo
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-model.fit(X_train_encoded, y_train_encoded, epochs=10, batch_size=32, validation_data=(X_test_encoded, y_test_encoded))
+m = model.fit(X_train_encoded, y_train_encoded, epochs=10, batch_size=32, validation_data=(X_test_encoded, y_test_encoded))
+model.save('modelo_teste.h5', m)
 
 # Passo 7: Avaliar o Modelo
 test_loss, test_accuracy = model.evaluate(X_test_encoded, y_test_encoded)

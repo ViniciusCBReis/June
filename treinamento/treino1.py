@@ -3,14 +3,16 @@ from sklearn.calibration import LabelEncoder
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-
+import nltk
+nltk.download('punkt')
 
 # Passo 1: Carregar os dados
-data = pd.read_csv('D:/Atividades Faculdade/APS/treinamento/treinamentoia.csv', encoding="utf8")
+
+data = pd.read_csv('D:/Atividades Faculdade/APS/treinamento/treinamentoia2.csv', encoding="utf8")
 
 # Passo 2: Dividir os dados em features (X) e rótulos (y)
-X = data.drop('Positvo', axis=1) # Features
-y = data[['Positvo']]  # Rótulos
+X = data.drop(data.columns[4], axis=1)  # Features
+y = data.iloc[:, 4]  # Rótulos
 
 # Passo 3: Dividir os dados em conjuntos de treinamento e teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -19,11 +21,12 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 encoder = OneHotEncoder(handle_unknown='ignore')
 X_train_encoded = encoder.fit_transform(X_train)
 X_test_encoded = encoder.transform(X_test)
+print(y_train.unique())
 
 # Codificar os rótulos usando LabelEncoder
 label_encoder = LabelEncoder()
-y_train_encoded = label_encoder.fit_transform(y_train['Positvo'])  # Somente 'Positivo' é codificado
-y_test_encoded = label_encoder.transform(y_test['Positvo'])
+y_train_encoded = label_encoder.fit_transform(y_train)  # Somente 'Positivo' é codificado
+y_test_encoded = label_encoder.transform(y_test)
 
 # Passo 5: Construir o Modelo
 model = tf.keras.Sequential([

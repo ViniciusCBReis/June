@@ -1,0 +1,8 @@
+O sensoriamento remoto é a técnica de obtenção de infor­mações acerca de um objeto área ou fenômeno localizado na Terra sem que haja contato físico com o mesmo. As informa­ções podem ser obtidas através de radiação eletromagnética gerada por fontes naturais (sensor passivo) como o Sol ou por fontes artificiais (sensor ativo) como o radar. São apresentadas na forma de imagens sendo mais utilizadas atualmente aque­las captadas por sensores óticos orbitais localizados em satélites.
+
+Os satélites girando numa órbita em torno da Terra levam consigo um sensor capaz de emitir e/ou receber a energia ele­tromagnética refletida da Terra.
+
+As imagens orbitais possibilitam muitas aplicações como o mapeamento e a atualização de dados cartográficos e temáticos a produção de dados meteorológicos e a avaliação de impactos ambientais.
+
+Aproveita pra compartilhar nos stories 
+#gis #sensoriamentoremoto #geoprocessamento #satelites #qualificação #engenharia #cartografia

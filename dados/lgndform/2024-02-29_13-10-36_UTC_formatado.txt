@@ -1,0 +1,33 @@
+Não há um número específico para quantificar a quantidade de carbono absorvida pelas árvores pois existem diversos estudos com resultados variados em diferentes ecossistemas 
+
+Alguns dados indicam valores altos enquanto outros apontam valores baixos.
+
+No entanto é consenso que um conjunto de árvores captura mais carbono do que uma única árvore.
+
+No Brasil há quantificações específicas para a Mata Atlântica e para a Amazônia.
+
+A maioria das avaliações calcula o tempo de vida de uma árvore para estimar a quantidade de carbono capturada durante sua vida.
+
+Alguns cálculos medem toneladas de carbono por hectare enquanto outros consideram uma medida anual para árvores adultas.
+
+Nos planos de compensação de carbono com plantio de mudas são utilizados outros cálculos.
+
+Quanto mais velha a árvore mais carbono ela captura e estoca.
+
+Um estudo da Esalq calcula o seguinte:
+
+Normalmente são utilizadas cerca de 2.000 árvores para recuperar um hectare de floresta nativa que pode levar de 30 a 40 anos para atingir um estágio próximo de estabilidade de biomassa.
+
+As florestas da Mata Atlântica e do Cerrado quando maduras têm um estoque de carbono de aproximadamente 100 toneladas de C/hectare enquanto a Floresta Amazônica tem estoque de carbono entre 170 toneladas de C/ha.
+
+Em 30 anos a floresta pode ter crescido cerca de 70% de sua estrutura madura o que equivale a 70 tC/ha para a Mata Atlântica ou Cerrado e 120 tC/hectare para a Floresta Amazônica.
+
+Considerando a unidade de estoque de carbono (C) e a unidade do GEE (CO2) 1 tonelada de Carbono (C) estocada na floresta equivale a 37 toneladas de CO2-eq sequestrado da atmosfera.
+
+Portanto o total sequestrado na Mata Atlântica e Cerrado de 70 tC/hectare representa 260 t CO2-eq/ha e na Amazônia 120 tC/hectare representa 444 t CO2-eq/ha.
+
+Dividindo os estoques por 2.000 árvores plantadas o carbono estocado por árvore resulta em aproximadamente 130 kg de CO2-eq para as árvores na Mata Atlântica e 222 kg de CO2-eq para as árvores da Floresta Amazônica.
+
+Isso significa que durante 30 anos a cada ano uma árvore sequestra respectivamente 43 kg e 74 kg por árvore ao ano.
+
+#arvores #meioambiente

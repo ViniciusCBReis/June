@@ -1,0 +1,8 @@
+EM ALGUM MOMENTO EU ME ENROLEI PRA RESPONDER A PERGUNTA; 
+O QUE É NDVI? 
+Então se tu passares por isso em algum momento também manda esse vídeo.
+O Índice de Vegetação por Diferença Normalizada (NDVI) é uma técnica já amplamente utilizada para avaliar a saúde e a densidade da vegetação em uma determinada área. O NDVI é uma forma de mapeamento de áreas na agricultura que utiliza sensores remotos para determinar as condições da vegetação.
+Através de sensores aéreos o NDVI mede a energia luminosa que cada planta absorve ou emite. Com esses dados comparados o sistema gera um valor de -1 a 1 de acordo com as características da vegetação Além de tudo é capaz de mapear áreas agrícolas e monitorar pragas mapear plantas daninhas e auxiliar na pulverização direcionada.
+Quer saber mais?
+
+Acesse: www.FlorestalBrasil.com 

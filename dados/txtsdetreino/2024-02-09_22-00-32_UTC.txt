@@ -1,0 +1,13 @@
+SIGA ATUALIZADO | A Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável (Semad) disponibilizou, na quinta-feira (08/02), versão atualizada do Sistema de Informações Geográficas Ambientais do Estado de Goiás (Siga). 
+
+O Siga é uma infraestrutura de dados espaciais que permite o gerenciamento, armazenamento e distribuição de dados ambientais e de infraestrutura. Além de servir como importante hub de informações no fluxo de trabalho da fiscalização ambiental remota e combate ao desmatamento ilegal, também é fundamental no dia a dia de trabalho do público externo que utiliza informações da Semad.
+
+A plataforma reúne dados georreferenciados sobre licenças ambientais, infrações, embargos, outorgas, unidades de conservação e centenas de outros temas, divididos em 334 camadas. O acesso é gratuito, pelo site https://siga.meioambiente.go.gov.br/.
+
+A mudança mais perceptível é na interface: está mais amigável, resolutiva e moderna. O Siga foi otimizado para funcionar bem em telefones celulares e tablets, e agora permite que a pessoa compartilhe a própria localização com a plataforma e faça cruzamentos geoespaciais. 
+
+"Se o indivíduo estiver, por exemplo, em uma propriedade rural no interior do Estado, ele pode descobrir, com poucos toques de tela, se há embargos ou autos de infração relacionados àquele imóvel", explica Robson Disarz, subsecretário de Licenciamento, Fiscalização e Controle Ambiental. "Ou pode investigar a existência de campos de murundus na região, corpos hídrícos e outorgas. As possibilidades são variadas". 
+
+O Siga é parte da infraestrutura de dados espaciais da Semad e foi desenvolvido por servidores da secretaria, utilizando como base tecnologias livres e gratuitas, como o Geonode. O sistema saiu da versão 2.10.3 para 4.2.0. Ele já utilizado por 1,8 mil usuários.
+
+@andrea_vulcanis @robsondisarz @marcelo_m_sales @murilomapas @rodrigopbastos @jorgewerneck @bento_jrocha

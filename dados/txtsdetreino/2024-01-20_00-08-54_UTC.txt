@@ -1,0 +1,10 @@
+Você já ouviu esse nome e disso eu não tenho dúvida, mas você saberia dizer o que é e o que faz o INPE?
+Essa é a sigla que representa o  Instituto Nacional de Pesquisas Espaciais, ela é uma instituição científica e tecnológica localizada em São José dos Campos, no estado de São Paulo. Foi criado em 1961, como resultado de uma parceria entre o governo brasileiro e a NASA.
+o INPE é responsável por fornecer informações meteorológicas e climáticas para todo o país. Ele opera uma rede de estações meteorológicas, radares e satélites que coletam dados em tempo real sobre o clima e o tempo. Esses dados são usados para previsão do tempo, previsão de enchentes e secas, e alertas de desastres naturais.
+LINKS PARA OBTENÇÃO DE IMAGENS DE SATÉLITES.
+1- http://www.dgi.inpe.br/CDSR/ 
+2- https://earthexplorer.usgs.gov/
+3- http://www2.dgi.inpe.br/catalogo/explore
+Quer saber como baixa? Comenta ai embaixo que fazemos um video ensinando  a utilizar esses sites! .
+
+#satelites #inpe #pesquisas #ciencia #space #arcgis #qgis #educação

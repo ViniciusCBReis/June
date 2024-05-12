@@ -20,7 +20,7 @@ def tokenize_and_remove_stopwords(text):
 input_file = 'D:/Atividades Faculdade/APS/treinamento/Validaçãoia.csv'
 
 # Nome do arquivo CSV de saída (apenas para demonstração)
-output_file = 'Validaçãoia2.csv'
+output_file = 'Validçãoia2.csv'
 
 # Lista para armazenar linhas tokenizadas sem stopwords
 tokenized_lines = []

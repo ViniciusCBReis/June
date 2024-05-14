@@ -10,7 +10,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score
 
 # Passo 1: Carregar os dados
-data = pd.read_csv('D:/Atividades Faculdade/APS/dados/PlanilhaTreinoInicial.csv', encoding="utf8")
+data = pd.read_csv('D:/Atividades Faculdade/APS/dados/planilhaTreino-3.csv', encoding="utf8")
+data['Legenda'].fillna('', inplace=True)  # Preenche os valores nulos na coluna 'Legenda' com uma string vazia
 
 # Passo 2: Dividir os dados em features (X) e rótulos (y)
 X = data['Legenda']  # Features

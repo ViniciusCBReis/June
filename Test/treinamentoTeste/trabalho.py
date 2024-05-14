@@ -20,11 +20,11 @@ import time
 
 # Passo 1: Carregar os dados
 
-data = pd.read_csv('D:/Atividades Faculdade/APS/treinamento/treinamentoia2.csv', encoding="utf8")
+data = pd.read_csv('D:/Atividades Faculdade/APS/dados/PlanilhaTreinoInicial.csv', encoding="utf8")
 
 # Passo 2: Dividir os dados em features (X) e rótulos (y)
-X = data.drop(data.columns[4], axis=1)  # Features
-y = data.iloc[:, 4]  # Rótulos
+X = data.drop(data.columns[1], axis=1)  # Features
+y = data.iloc[:, 1]  # Rótulos
 
 # Passo 3: Dividir os dados em conjuntos de treinamento e teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -34,6 +34,8 @@ encoder = OneHotEncoder(handle_unknown='ignore')
 X_train_encoded = encoder.fit_transform(X_train)
 X_test_encoded = encoder.transform(X_test)
 print(y_train.unique())
+X_train_dense = X_train_encoded.toarray()
+X_test_dense = X_test_encoded.toarray()
 
 # Codificar os rótulos usando LabelEncoder
 label_encoder = LabelEncoder()
@@ -75,17 +77,17 @@ print(data.head(5))
 print('\nMostrando as informações do DataFrame:')
 data.info()
 print('\nMostrando Labels: ')
-print(data.iloc[:, 4] .value_counts())
+print(data.iloc[:, 1] .value_counts())
 
 #funç relatório
-def mostrar_desempneho(X_train_encoded, y_train_encoded, X_test_encoded, y_test_encoded, model, name):
+def mostrar_desempneho(X_train_dense, y_train_encoded, X_test_dense, y_test_encoded, model, name):
     inicio = time.time()
-    model.fit(X_train_encoded, y_train_encoded)
+    model.fit(X_train_dense, y_train_encoded)
     fim = time.time()
     tempo_treinamento = (fim - inicio)*1000
     #prevendo dados
     inicio = time.time()
-    y_pred_prob = model.predict(X_test_encoded)
+    y_pred_prob = model.predict(X_test_dense)
     fim = time.time()
     tempo_previsao = (fim - inicio)*1000
     print('Relatório Utilizando Algoritmo', name)
@@ -107,7 +109,7 @@ def mostrar_desempneho(X_train_encoded, y_train_encoded, X_test_encoded, y_test_
 # Iterar sobre os modelos, treinar e avaliar
 for name, model in models:
     print("Model:", name)
-    accuracy, tempo_treinamento, tempo_previsao = mostrar_desempneho(X_train_encoded, y_train_encoded, X_test_encoded, y_test_encoded, model, name)
+    accuracy, tempo_treinamento, tempo_previsao = mostrar_desempneho(X_train_dense, y_train_encoded, X_test_dense, y_test_encoded, model, name)
     print("Accuracy:", accuracy)
     print("Tempo de treinamento (ms):", tempo_treinamento)
     print("Tempo de previsão (ms):", tempo_previsao)

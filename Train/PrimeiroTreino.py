@@ -10,7 +10,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score
 
 # Passo 1: Carregar os dados
-data = pd.read_csv('D:/Atividades Faculdade/APS/dados/planilhaTreino-3.csv', encoding="utf8")
+data = pd.read_csv('D:/Atividades Faculdade/APS/dados/planilhaTreino4.csv', encoding="utf8")
 data['Legenda'].fillna('', inplace=True)  # Preenche os valores nulos na coluna 'Legenda' com uma string vazia
 
 # Passo 2: Dividir os dados em features (X) e rótulos (y)
@@ -45,6 +45,6 @@ print("Test Accuracy:", test_accuracy)
 print('Tempo de treinamento (ms):', tempo_treinamento)
 
 # Salvando o modelo treinado
-model_filename = name.replace(" ", "_") + ".joblib"
+model_filename = name.replace(" ", "_") + "4.joblib"
 joblib.dump(model, model_filename)
 print(f"Modelo treinado salvo como {model_filename}")
